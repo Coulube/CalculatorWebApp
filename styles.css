@@ -1,4 +1,5 @@
 /* Calculator styles */
+
 .calculator {
     width: 300px;
     margin: 10px auto;
@@ -6,7 +7,7 @@
     background-color: #242530;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
+/* Display field styles */
 #display {
     width: 90%;
     height: 40px;
@@ -19,14 +20,14 @@
     background-color: #3A3F77;
     color: #FFFFFF;
 }
-
+/* Class button styles */
 .buttons {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 10px;
     justify-items: centre;
 }
-
+/* This styles the buttons */
 button {
     height: 40px;
     font-size: 18px;
@@ -34,7 +35,7 @@ button {
     border-radius: 10px;
     cursor: pointer;
 }
-
+/* This styles the numbers of the calculator and the backspace symbol */
 .number, .backspace {
     background-color: #404258;
     color: #FFFFFF;
@@ -45,7 +46,7 @@ button {
     justify-content: center;
     align-items: center;
 }
-
+/* This section styles the operator buttons */
 .operator {
     background-color: #F49D1A;
     color: #242530;
@@ -58,7 +59,7 @@ button {
     line-height: 40px;
     border: none;
 }
-
+/* Styling the equal symbol */
 .equals {
     background-color: #B2B2B2;
     color: #242530;
@@ -67,7 +68,7 @@ button {
 button:hover {
     opacity: 0.8;
 }
-
+/* This styles the history display*/
 .history {
     margin-bottom: 20px;
     padding: 10px;
